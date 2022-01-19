@@ -28,7 +28,6 @@ const retrieveNasaPhoto = function(){
     fetch('https://api.nasa.gov/planetary/apod?api_key=s7J66psQK1puvP7gbT3I7Vje52DW2b0cWtufych9&count=1')
     .then(response => response.json())
     .then(data => {
-        console.log(data)
         printPhoto(data)
     })
 }
