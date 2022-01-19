@@ -2,7 +2,8 @@ body{
     display: block;
     flex-direction: column;
     width: 500px;
-    border: solid black;   
+    border: solid black; 
+     
 }
 
 .title{
