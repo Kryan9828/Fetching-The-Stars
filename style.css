@@ -1,0 +1,48 @@
+body{
+    display: block;
+    flex-direction: column;
+    width: 500px;
+    border: solid black;   
+}
+
+.title{
+    background-color:lightblue;
+    border: solid thin;
+    border-style: hidden;
+}
+#mainTitle{
+    font-size: 18pt;
+    font-weight: bold;
+    border-bottom-color: lightblue;
+}
+
+#secondTitle{
+    font-size: 10pt;
+    border-top-color: lightblue;
+    color:grey;
+}
+#photo{
+    width: 100%;
+    align-items: center;
+}
+
+.image{
+    text-align: justify;
+    background-color: whitesmoke;
+}
+
+#imgTitle{
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#date{
+    font-style: italic;
+}
+
+#description{
+    border-top:solid black;
+}
+.button{
+    width: 50px;
+}
