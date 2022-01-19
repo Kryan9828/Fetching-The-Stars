@@ -1,4 +1,3 @@
-//Variables for DOM Elements
 let dateTag = document.getElementById("date")
 let imgTitle = document.getElementById("imgTitle")
 let description = document.getElementById("description")
